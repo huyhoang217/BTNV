@@ -69,7 +69,7 @@ class _MyScreenState extends State<MyScreen> {
 }
 
 List<int> sumTarget (List<String> list, String text){
-  List<int> arr = convertToNum(list);
+  List<int> arr = convertStrToNum(list);
   int target = int.parse(text);
   if(arr.isEmpty){
     return [];
